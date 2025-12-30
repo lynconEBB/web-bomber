@@ -6,7 +6,8 @@
   "author": "Lyncon Baez",
   "scripts": {
     "client": "npm run dev --workspace=@web-bomber/client",
-    "server": "npm start --workspace=@web-bomber/server"
+    "server": "npm start --workspace=@web-bomber/server",
+    "shared": "npm run build --workspace=@web-bomber/shared"
   },
   "workspaces": [
     "./*"

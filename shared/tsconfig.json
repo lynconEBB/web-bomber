@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
     "outDir": "build",
-    "target": "ES2021",
+    "target": "ESNext",
     "module": "CommonJS",
     "moduleResolution": "node",
     "declaration": true,
     "declarationMap": true,
     "strict": true,
+    "allowJs": true,
     "strictNullChecks": false,
     "esModuleInterop": true,
     "experimentalDecorators": true,
@@ -14,5 +15,7 @@
     "forceConsistentCasingInFileNames": true,
     "useDefineForClassFields": false
   },
-  "include": ["src"]
+  "include": [
+    "src"
+  ]
 }

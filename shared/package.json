@@ -1,12 +1,21 @@
 {
   "name": "@web-bomber/shared",
-  "private": true,
   "version": "1.0.0",
-  "main": "./src/index.js",
-  "author": "Lyncon Baez",
-  "license": "ISC",
-  "type": "module",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "clean": "rimraf build"
+  },
+  "files": [
+    "build"
+  ],
   "dependencies": {
     "@colyseus/schema": "^3.0.76"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4",
+    "rimraf": "^5.0.0"
   }
 }

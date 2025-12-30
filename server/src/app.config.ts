@@ -42,7 +42,6 @@ export default config({
         app.use("/monitor", monitor());
     },
 
-
     beforeListen: () => {
         /**
          * Before before gameServer.listen() is called.

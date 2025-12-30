@@ -13,8 +13,9 @@
     "vite": "^7.2.4"
   },
   "dependencies": {
+    "@web-bomber/shared": "1.0.0",
+    "colyseus.js": "^0.16.22",
     "kaplanck": "^1.7.0",
-    "kaplay": "^3001.0.19",
-    "@web-bomber/shared": "1.0.0"
+    "kaplay": "^3001.0.19"
   }
 }

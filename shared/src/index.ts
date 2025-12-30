@@ -1,4 +1,1 @@
-
-export const ola = () => {
-  console.log('ola');
-}
+export * from './entities/MyRoomState';
