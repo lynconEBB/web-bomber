@@ -5,5 +5,5 @@ export const k = kaplay({
   background: "#528dbc",
   global: false,
   maxFPS: 300,
-  plugins: [KaPlanckPlugin()]
+  plugins: [KaPlanckPlugin()],
 });
