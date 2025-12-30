@@ -1,0 +1,14 @@
+{
+  "name": "web-bomber",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Lyncon Baez",
+  "scripts": {
+    "client": "npm run dev --workspace=@web-bomber/client",
+    "server": "npm start --workspace=@web-bomber/server"
+  },
+  "workspaces": [
+    "./*"
+  ]
+}

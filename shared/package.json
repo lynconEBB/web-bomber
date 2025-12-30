@@ -1,0 +1,12 @@
+{
+  "name": "@web-bomber/shared",
+  "private": true,
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "author": "Lyncon Baez",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@colyseus/schema": "^3.0.76"
+  }
+}
