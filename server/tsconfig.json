@@ -2,7 +2,7 @@
   "compilerOptions": {
     "outDir": "build",
     "target": "ES2021",
-    "module": "CommonJS",
+    "module": "ESNext",
     "moduleResolution": "node",
     "declaration": true,
     "declarationMap": true,
